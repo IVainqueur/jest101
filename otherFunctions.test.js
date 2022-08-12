@@ -20,7 +20,11 @@ afterAll(endingTesting)
 const specificTestFunctions = () => console.log("Specifically testing this function....")
 
 describe('Special functions', ()=>{
-    beforeEach(() => specificTestFunctions())
+    beforeEach(specificTestFunctions)
+
+    test('Special function 1', ()=>{
+        
+    })
 })
 
 
