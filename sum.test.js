@@ -1,3 +1,5 @@
 const sum = require('./sum')
 
-test('')
+test('Adding Properly', ()=>{
+    expect(sum(1, 4)).toBe()
+})
