@@ -14,6 +14,7 @@ test('Proper Cloning', ()=>{
 
 //Other possible matches include:
 //.toBeUndefined
+//.toBeDefined
 //.toBeFalsy
 //.toBeTruthy
 //.not.toBe...
