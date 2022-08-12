@@ -8,8 +8,8 @@ const otherFunctions = {
         }
     },
     fetchUser: async ()=>{
-       let user = (await axios.get('https://jsonplaceholder.typicode.com/users/1'))
-        .then(res => res.data)
+       let result = (await axios.get('https://jsonplaceholder.typicode.com/users/1')).data
+       return result
     }
 }
 
