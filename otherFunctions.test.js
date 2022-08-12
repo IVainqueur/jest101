@@ -19,7 +19,9 @@ afterAll(endingTesting)
 
 const specificTestFunctions = () => console.log("Specifically testing this function....")
 
-describe()
+describe('Special functions', ()=>{
+    beforeEach(() => specificTestFunctions())
+})
 
 
 test('Similar Objects', () => {
