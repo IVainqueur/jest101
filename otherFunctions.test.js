@@ -33,5 +33,6 @@ test('Similar Objects', () => {
 
 /* Asynchronous testing */
 test('Leanne Graham is the user fetched', ()=>{
-
+    expect.assertions(1)
+    
 })
