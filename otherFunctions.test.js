@@ -6,6 +6,8 @@ and reference types (arrays and objects) also compare memory and shit
 so...........
 the .toEqual matcher is usually used
 */
+const beginningTesting = () => console.log("============ TESTING IS STARTING ==============")
+const beginningTesting = () => console.log("============ TESTING IS STARTING ==============")
 const startingTest = () => console.log('Starting test...')
 const endingTest = () => console.log('Ending test!')
 
