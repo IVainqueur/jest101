@@ -19,3 +19,4 @@ test('Proper Cloning', ()=>{
 //.toBeTruthy
 //.not.toBe...
 //.toBeNull
+//.toBeLessThan
