@@ -33,9 +33,9 @@ test('Similar Objects', () => {
 
 /* Asynchronous testing */
 test('Leanne Graham is the user fetched', () => {
-    expect.assertions(1)
+    // expect.assertions(1)
     return otherFunctions.fetchUser()
         .then(user => {
-            expect(user.name).toBe('Leanne Graham2')
+            expect(user.name).toBe('Leanne Graham')
         })
 })
