@@ -31,4 +31,7 @@ test('Similar Objects', () => {
 //.toContain
 
 
-/* Erro */
+/* Asynchronous testing */
+test('Fetching data', ()=>{
+    
+})
