@@ -7,7 +7,10 @@ so...........
 the .toEqual matcher is usually used
 */
 const startingTest = () => console.log('Starting test...')
-const endingTest = ()
+const endingTest = () => console.log('Ending test!')
+
+beforeEach(startingTest)
+afterEach(startingTest)
 
 
 test('Similar Objects', () => {
