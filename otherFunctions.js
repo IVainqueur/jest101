@@ -7,9 +7,13 @@ const otherFunctions = {
             lastname: lname
         }
     },
-    fetchUser: async ()=>{
-       let result = (await axios.get('https://jsonplaceholder.typicode.com/users/1')).data
-       return result
+    fetchUser: async () => {
+        try {
+            let result = (await axios.get('https://jsonplaceholder.typicode.com/users/1')).data
+            return result
+        }catch (e){
+            return e
+        }
     }
 }
 
