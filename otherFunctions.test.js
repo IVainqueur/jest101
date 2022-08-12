@@ -28,7 +28,8 @@ describe('Special functions', ()=>{
     })
 
     test('Special function 2', () => {
-        let val = 
+        let val = 69;
+        expect(val).toBeLessThan(100);
     })
 })
 
