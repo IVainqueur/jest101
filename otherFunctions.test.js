@@ -23,7 +23,12 @@ describe('Special functions', ()=>{
     beforeEach(specificTestFunctions)
 
     test('Special function 1', ()=>{
-        
+        let val = 3;
+        expect(val).not.toBeFalsy();
+    })
+
+    test('Special function 2', () => {
+        let val = 
     })
 })
 
