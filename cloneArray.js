@@ -1,5 +1,3 @@
-const cloneArray = (array)=>{
-    return [...array]
-}
+const cloneArray = (array)=> [...array]
 
 module.exports = cloneArray
