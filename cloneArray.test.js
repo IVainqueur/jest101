@@ -11,13 +11,3 @@ test('Proper Cloning', ()=>{
     const arr = [1, 2, 3]
     expect(cloneArray(arr)).toEqual(arr)
 })
-
-//Other possible matches include:
-//.toBeUndefined
-//.toBeDefined
-//.toBeFalsy
-//.toBeTruthy
-//.not.toBe...
-//.toBeNull
-//.toBeLessThan
-//.toMatch .... acts regex

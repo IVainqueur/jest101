@@ -7,6 +7,25 @@ so...........
 the .toEqual matcher is usually used
 */
 
-test('Similar Objects', ()=>{
-    
+
+
+test('Similar Objects', () => {
+    let expectedObj = {
+        firstname: 'Vainqueur',
+        lastname: 'ISHIMWE'
+    }
+    expect(otherFunctions.createUser('Vainqueur', 'ISHIMWE')).toEqual(expectedObj)
 })
+
+
+
+//Other possible matches include:
+//.toBeUndefined
+//.toBeDefined
+//.toBeFalsy
+//.toBeTruthy
+//.not.toBe...
+//.toBeNull
+//.toBeLessThan
+//.toMatch .... accepts regex
+//.toContain
