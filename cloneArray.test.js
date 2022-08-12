@@ -1,3 +1,5 @@
 const cloneArray = require('./cloneArray')
 
-test('')
+test('Proper Cloning', ()=>{
+    
+})
