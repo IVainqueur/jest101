@@ -32,6 +32,6 @@ test('Similar Objects', () => {
 
 
 /* Asynchronous testing */
-test('Leanne Graham is the user', ()=>{
+test('Leanne Graham is the user fetched', ()=>{
 
 })
