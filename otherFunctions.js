@@ -8,7 +8,7 @@ const otherFunctions = {
         }
     },
     fetchUser: async ()=>{
-        axios
+        axios.get('')
     }
 }
 
