@@ -6,7 +6,8 @@ and reference types (arrays and objects) also compare memory and shit
 so...........
 the .toEqual matcher is usually used
 */
-
+const startingTest = () => console.log('Starting test...')
+const endingTest = ()
 
 
 test('Similar Objects', () => {
