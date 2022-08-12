@@ -20,3 +20,4 @@ test('Proper Cloning', ()=>{
 //.not.toBe...
 //.toBeNull
 //.toBeLessThan
+//.toMatch .... acts regex
