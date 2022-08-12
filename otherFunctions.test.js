@@ -15,7 +15,9 @@ beforeEach(startingTest)
 afterEach(startingTest)
 
 beforeAll(beginningTesting)
-afterAll()
+afterAll(endingTesting)
+
+const specificTesting
 
 
 test('Similar Objects', () => {
