@@ -1,5 +1,5 @@
 const otherFunctions = {
-
+    createUser: ()
 }
 
-module.exports 
+module.exports = otherFunctions
